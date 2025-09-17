@@ -27,7 +27,7 @@ import {
 } from "recharts";
 
 // Default export React component (shadcn + recharts)
-export default function SystemDashboard({ apiUrl = "http://103.167.133.200:3000/api/system/all" }) {
+export default function SystemDashboard({ apiUrl = "http: 🔥" }) {
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
